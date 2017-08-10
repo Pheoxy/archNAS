@@ -1,0 +1,13 @@
+arch-install-scripts
+btrfs-progs
+dhclient
+dialog
+dosfstools
+nano
+ntp
+openssh
+refind-efi
+rfkill
+wget
+wireless_tools
+wpa_actiond

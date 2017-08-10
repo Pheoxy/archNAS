@@ -1,0 +1,10 @@
+[Unit]
+Description=Initializes SSH Daemon
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=systemctl start sshd
+
+[Install]
+WantedBy=multi-user.target
