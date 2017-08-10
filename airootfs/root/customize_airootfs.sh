@@ -2,10 +2,10 @@
 
 set -e -u
 
-sed -i 's/#\(en_US\.UTF-8\)/\1/' /etc/locale.gen
+sed -i 's/#\(en_AU\.UTF-8\)/\1/' /etc/locale.gen
 locale-gen
 
-ln -sf /usr/share/zoneinfo/UTC /etc/localtime
+ln -sf /usr/share/zoneinfo/Australia/Perth /etc/localtime
 
 usermod -s /usr/bin/zsh root
 cp -aT /etc/skel/ /root/
@@ -21,3 +21,4 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
 systemctl enable pacman-init.service choose-mirror.service
 systemctl set-default multi-user.target
+systemctl enable sshd.service

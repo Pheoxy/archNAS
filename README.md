@@ -20,9 +20,11 @@ Start build.
 
 ### Restart Building
 
+Reboot, then use this command.
+
 `sudo rm -Rv work/`
 
-Then reboot.
+
 
 
 ### Planned Features:
