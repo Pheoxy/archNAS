@@ -14,17 +14,17 @@ Make `out` folder for iso.
 
 Start build.
 
-`sudo ./build.sh -v`
+`sudo ./build.sh`
 
-Restart build.
+
+### Restart Building
 
 `sudo rm -Rv work/`
 
-Then reboot or unmount (To be finished)
+Then reboot.
 
 
 ### Planned Features:
 
 * SSH Server
 * KVM Server
-
