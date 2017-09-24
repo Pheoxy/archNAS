@@ -1,6 +1,9 @@
 arch-install-scripts
-btrfs-progs
 dosfstools
+git
 nano
 ntp
 openssh
+parted
+wget
+networkmanager
